@@ -1,5 +1,5 @@
 // ===========================================================================
-//	©2013-2024 WebSupergoo. All rights reserved.
+//	©2013-2026 WebSupergoo. All rights reserved.
 //
 //	This source code is for use exclusively with the ABCpdf product with
 //	which it is distributed, under the terms of the license for that
@@ -19,11 +19,11 @@ using System.IO;
 using System.Security.Cryptography.X509Certificates;
 using System.Windows.Forms;
 
-using WebSupergoo.ABCpdf13;
-using WebSupergoo.ABCpdf13.Objects;
-using WebSupergoo.ABCpdf13.Atoms;
-using WebSupergoo.ABCpdf13.Elements;
-using WebSupergoo.ABCpdf13.Operations;
+using WebSupergoo.ABCpdf14;
+using WebSupergoo.ABCpdf14.Objects;
+using WebSupergoo.ABCpdf14.Atoms;
+using WebSupergoo.ABCpdf14.Elements;
+using WebSupergoo.ABCpdf14.Operations;
 
 
 namespace WebSupergoo.Annotations {
@@ -339,7 +339,7 @@ namespace WebSupergoo.Annotations {
 					// since it was signed."
 					// This `SignedThenAppended.pdf` file is a document created
 					// using Acrobat Professional 8. So given that Adobe products
-					// are not internally consistent here, it is difficult to seee
+					// are not internally consistent here, it is difficult to see
 					// how any other products can be.
 
 					// We add the first signature field unsigned

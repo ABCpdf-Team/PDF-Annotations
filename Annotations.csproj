@@ -27,7 +27,7 @@
     </FileUpgradeFlags>
     <UpgradeBackupLocation>
     </UpgradeBackupLocation>
-    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <OldToolsVersion>2.0</OldToolsVersion>
     <TargetFrameworkProfile />
     <PublishUrl>publish\</PublishUrl>
@@ -129,7 +129,7 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="ABCpdf">
-      <Version>13.*</Version>
+      <Version>14.*</Version>
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
